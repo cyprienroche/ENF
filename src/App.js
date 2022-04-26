@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Objectives from './pages/Introduction/Objectives'
 import What from './pages/Introduction/What'
+import History from './pages/Introduction/History'
 import DecisionTree from './pages/FurtherResources/DecisionTree'
 import NoPage from './pages/NoPage'
 import { ThemeProvider } from '@mui/material/styles'
@@ -16,6 +17,7 @@ function App() {
         {/* Introduction */}
         <Route path="objectives" element={<ThemeProvider theme={introTheme}><Objectives /></ThemeProvider>} />
         <Route path="what" element={<ThemeProvider theme={introTheme}><What /></ThemeProvider>} />
+        <Route path="history" element={<ThemeProvider theme={introTheme}><History /></ThemeProvider>} />
         {/* Overview */}
         {/* In Practice */}
         {/* Further Resources */}

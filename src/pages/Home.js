@@ -6,11 +6,12 @@ export default function Home() {
   return (
     <Container>
       <Typography
-        variant="h1" 
+        variant="h2" 
         color="primary"
+        component="h1"
         gutterBottom
       >
-        Home
+        Understanding the EN 301 549 standard
       </Typography>
     </Container>
   )

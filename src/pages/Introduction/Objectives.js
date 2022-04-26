@@ -11,7 +11,19 @@ export default function Objectives() {
         component="h1"
         gutterBottom
       >
-        Objectives of the EN 301 549
+        Objectives of the EN 301 549 standard
+      </Typography>
+      <Typography>
+      There are 3 objectives to the EN 301 549 standard:
+      <ol>
+        <li>Define a set of requirements that make an ICT product or service accessible in Europe</li>
+        <li>Enable organizations to test the conformance, and so the accessibility, of ICT products and services</li>
+        <li>Provide a formal and o!cial document that can easily be integrated into the European legislation</li>
+      </ol>
+      
+      <p>Ultimately, the EN 301 549 standard aims to enable people with disabilities to use ICT products and services as equally as people without disabilities.</p>
+      
+      <p>Offcially, the standard only applies to the public sector as of today. However, this is will change in the years to come; the scope of the standard will extend to the private sector too.</p>
       </Typography>
     </Container>
   )
