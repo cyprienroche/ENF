@@ -33,12 +33,13 @@ export default function History() {
       >
         A brief history
       </Typography>
-      <Typography>
+
+      <Typography paragraph>
       The following table shows a brief history of the standard, beginning with Mandate M376 which resulted in the creation of the standard.
       </Typography>
 
-      <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
+      <TableContainer component={Paper} sx={{marginBottom: 5}}>
+      <Table sx={{ minWidth: 650 }} aria-label="History of the EN 301 549 standard from 2014 to 2021">
         <TableHead>
           <TableRow>
             <TableCell>Dessert (100g serving)</TableCell>
@@ -67,9 +68,10 @@ export default function History() {
       </Table>
     </TableContainer>
 
-    <Typography>
+    <Typography paragraph>
       A harmonized standard is a standard which was created to support the law. In this case, to support the Directive (EU) 2016/2102 of the European Union.
     </Typography>
+    
     </Container>
   )
 }

@@ -1,5 +1,6 @@
 import { createTheme } from '@mui/material/styles'
 import { amber, teal, pink, purple } from '@mui/material/colors'
+import { ThemeProvider } from '@mui/material/styles'
 
   export const globalTheme = createTheme({});
 
