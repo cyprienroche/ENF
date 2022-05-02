@@ -17,7 +17,10 @@ export default function Home() {
       >
         Understanding the EN 301 549 standard
       </Typography>
-
+      
+      <Typography praragraph>
+        This is the home page of a high-fidelity prototype tool designed to help people understand the EN 301 549 standard.
+      </Typography>
       {/* <List>
         {menuItems.map(item => (
           <ListItem

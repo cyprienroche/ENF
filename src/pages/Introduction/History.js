@@ -38,7 +38,7 @@ export default function History() {
       </Typography>
 
       <TableContainer component={Paper} sx={{ margin: 3 }}>
-      <Table sx={{ minWidth: 650 }} aria-label="History of the EN 301 549 standard from 2014 to 2021">
+      <Table sx={{ minWidth: 650 }} aria-label="History of the EN 301 549 standard from 2005 to 2021">
         <TableHead>
           <TableRow>
             <TableCell>Year</TableCell>

@@ -2,7 +2,7 @@ import React from 'react'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 
-export default function Which() {
+export default function Conform() {
   return (
     <Container>
       <Typography

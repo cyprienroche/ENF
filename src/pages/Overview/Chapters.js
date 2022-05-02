@@ -1,8 +1,9 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
+import Box from '@mui/material/Box';
 
-const imagePath = '../../../images/structure.jpg';
+const imagePath = '../../../public/structure.jpg';
 
 export default function Chapters() {
   return (
@@ -20,7 +21,13 @@ export default function Chapters() {
       The most important chapters of the standard are chapters 4, 5 to 13, and Annex C. The chapters can be grouped as follows:
       </Typography>
 
-      <img src={imagePath} />
+      <Box textAlign='center' sx={{margin: 3}}>
+        <img 
+          src={process.env.PUBLIC_URL + "/images/structure.jpg"}  
+          alt="Structure of the EN 301 549 standard"
+          width="65%"
+        />
+      </Box>
 
       <Typography paragraph>
       Chapters 1 to 3 define the background, the scope, references, and definitions relevant to the standard.

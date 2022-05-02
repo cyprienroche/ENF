@@ -20,8 +20,9 @@ const selectedPageStyle = (section) => {
     color: 'white',
     '&:hover': {
       bgcolor: section.color.light,
-      color: 'black'
-    }
+      color: 'black',
+    },
+    // 'text-decoration': 'underline',
     }
   }
 

@@ -28,7 +28,7 @@ export default function DecisionTree() {
             color="primary" 
             variant="contained"
             href="#decision-tree"
-            sx = {{'margin-top': 50, 'margin-bottom': 50}}
+            sx = {{margin: 3}}
           >
             Use the decision tree
           </Button>

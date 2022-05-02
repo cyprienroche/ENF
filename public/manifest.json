@@ -1,6 +1,6 @@
 {
-  "short_name": "Your Orders",
-  "name": "Your Orders",
+  "short_name": "ENF",
+  "name": "EN 301 549 Facilitator Prototype",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,3 +13,6 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
+
+

@@ -11,8 +11,13 @@ export default function NoPage() {
         component="h1"
         gutterBottom
       >
-        404
+        Error 404
       </Typography>
+      
+      <Typography paragraph>
+        Sorry, the page you requested was <b>not found</b>. 
+      </Typography>
+      
     </Container>
   )
 }
