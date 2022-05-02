@@ -16,7 +16,7 @@ import { ThemeProvider } from '@mui/material/styles'
     }
   });
 
-  export const practiceTheme = createTheme({
+  export const inpracticeTheme = createTheme({
     palette: {
       primary: pink
     }

@@ -2,6 +2,8 @@ import React from 'react'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 
+const imagePath = '../../../images/structure.jpg';
+
 export default function Chapters() {
   return (
     <Container>
@@ -13,6 +15,12 @@ export default function Chapters() {
       >
         The chapters of the standard
       </Typography>
+
+      <Typography paragraph>
+      The most important chapters of the standard are chapters 4, 5 to 13, and Annex C. The chapters can be grouped as follows:
+      </Typography>
+
+      <img src={imagePath} />
 
       <Typography paragraph>
       Chapters 1 to 3 define the background, the scope, references, and definitions relevant to the standard.
