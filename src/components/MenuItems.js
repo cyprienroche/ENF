@@ -1,132 +1,103 @@
+import DecisionTree from "../pages/FurtherResources/DecisionTree";
+import Funka from "../pages/FurtherResources/Funka";
+import WCAG from "../pages/FurtherResources/WCAG";
+import History from "../pages/Introduction/History";
+import Objectives from "../pages/Introduction/Objectives";
+import What from "../pages/Introduction/What";
+import Chapters from "../pages/Overview/Chapters";
+import ExampleICT from "../pages/Overview/ExampleICT";
+import Structure from "../pages/Overview/Structure";
+import Conform from "../pages/Practice/Conform";
+import Requirements from "../pages/Practice/Requirements";
+import Test from "../pages/Practice/Test";
 import { furtherTheme, introTheme, overviewTheme, inpracticeTheme } from "./Theme";
+
+  export const homePath="/ENF/";
 
   export const introItems = [
     {
       text: 'Objectives of the standard',
-      path: '/objectives'
+      path: `${homePath}objectives`,
+      file: <Objectives />,
     },
     {
       text: 'What is the EN 301 549',
-      path: '/what'
+      path: `${homePath}what`,
+      file: <What />,
     },
     {
         text: 'A brief history',
-        path: '/history'
+        path: `${homePath}history`,
+        file: <History />,
     }];
   export const overviewItems = [
     {
         text: 'The structure of the standard',
-        path: '/structure'
+        path: `${homePath}structure`,
+        file: <Structure />,
     },
     {
         text: 'The chapters of the standard',
-        path: '/chapters'
+        path: `${homePath}chapters`,
+        file: <Chapters />,
     },
     {
         text: 'Example ICT for which the chapters apply',
-        path: '/example-ict'
+        path: `${homePath}example-ict`,
+        file: <ExampleICT />,
     }];
   export const inpracticeItems = [
     {
         text: 'Products and services that must conform to the standard',
-        path: '/conform'
+        path: `${homePath}conform`,
+        file: <Conform />,
     },
     {
         text: 'Determining which requirements apply to a product or service',
-        path: '/requirements'
+        path: `${homePath}requirements`,
+        file: <Requirements />,
     },
     {
         text: 'Determining whether a product or service meets a requirement',
-        path: '/test'
+        path: `${homePath}test`,
+        file: <Test />,
     }];
   export const furtherItems = [
     {
         text: 'The decision tree',
-        path: '/decision-tree'
+        path: `${homePath}decision-tree`,
+        file: <DecisionTree />,
     },
     {
         text: 'WCAG free training',
-        path: '/wcag'
+        path: `${homePath}wcag`,
+        file: <WCAG />,
     },
     {
         text: 'Funka videos',
-        path: '/funka'
+        path: `${homePath}funka`,
+        file: <Funka />,
     }];
 
     export const allItems = [
         {
             text: 'Introduction',
-            color: introTheme.palette.primary,
+            theme: introTheme,
             subsections: introItems,
         },
         {
             text: 'Overivew',
-            color: overviewTheme.palette.primary,
+            theme: overviewTheme,
             subsections: overviewItems,
         },
         {
             text: 'In Practice',
-            color: inpracticeTheme.palette.primary,
+            theme: inpracticeTheme,
             subsections: inpracticeItems,
         },
         {
             text: 'Further Resources',
-            color: furtherTheme.palette.primary,
+            theme: furtherTheme,
             subsections: furtherItems,
         }
     ];
-
-
-
-
-
-    export const menuItems = [
-        {
-          text: 'Objectives of the standard',
-          path: '/objectives'
-        },
-        {
-          text: 'What is the EN 301 549',
-          path: '/what'
-        },
-        {
-            text: 'A brief history',
-            path: '/history'
-        },
-        {
-            text: 'The chapters of the standard',
-            path: '/chapters'
-        },
-        {
-            text: 'The structure of the standard',
-            path: '/structure'
-        },
-        {
-            text: 'Example ICT for which the chapters apply',
-            path: '/example-ict'
-        },
-        {
-            text: 'Products and services that must conform to the standard',
-            path: '/conform'
-        },
-        {
-            text: 'Determining which requirements apply to a product or service',
-            path: '/requirements'
-        },
-        {
-            text: 'Determining whether a product or service meets a requirement',
-            path: '/test'
-        },
-        {
-            text: 'The Decision Tree',
-            path: '/decision-tree'
-        },
-        {
-            text: 'WCAG free training',
-            path: '/wcag'
-        },
-        {
-            text: 'Funka videos',
-            path: '/funka'
-        }
-      ];

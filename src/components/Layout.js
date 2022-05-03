@@ -5,21 +5,19 @@ import Divider from '@mui/material/Divider';
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemText from '@mui/material/ListItemText'
-import ListItemIcon from '@mui/material/ListItemIcon'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Button from '@mui/material/Button';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { allItems, furtherItems, inpracticeItems, introItems, menuItems, overviewItems } from './MenuItems';
+import { allItems, homePath } from './MenuItems';
 import { Typography } from '@mui/material';
 
 const drawerWidth = 270; //240
 
 const selectedPageStyle = (section) => {
   return {
-    bgcolor: section.color.dark,
+    bgcolor: section.theme.palette.primary.dark,
     color: 'white',
     '&:hover': {
-      bgcolor: section.color.light,
+      bgcolor: section.theme.palette.primary.light,
       color: 'black',
     },
     // 'text-decoration': 'underline',
@@ -30,7 +28,6 @@ export default function Layout({ children }) {
 
   const navigate = useNavigate();
   const location = useLocation();
-  const selectedColor = '#e1f5fe';
 
   return (
     <Box sx={{ display: 'flex' }}>
@@ -52,7 +49,7 @@ export default function Layout({ children }) {
             </Typography> */}
                 <Button
                   aria-label="home"
-                  onClick={() => navigate('/')}
+                  onClick={() => navigate(homePath)}
                   sx = {{
                     fontSize: 30,
                     width: '100%',
@@ -71,7 +68,7 @@ export default function Layout({ children }) {
                     <Typography
                       variant="h6"
                       component="div"
-                      sx={() => {return {'color': section.color.main}}}
+                      sx={() => {return {'color': section.theme.palette.primary.main}}}
                     >
                       {section.text}
                     </Typography>

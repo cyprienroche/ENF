@@ -9,3 +9,9 @@ Head over to [cyprienroche.github.io/ENF/](https://cyprienroche.github.io/ENF/) 
 ### Objective
 
 ### Scope
+
+## Commands
+npm build
+npm start
+npm run deploy
+npm run deploy -- -m "Deploy React app to GitHub Pages"
