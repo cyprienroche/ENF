@@ -64,7 +64,7 @@ export default function Layout({ children }) {
             <List>
               {allItems.map(section => (
                 <List>
-                  <ListItem>
+                  <ListItem key={section.text}>
                     <Typography
                       variant="h6"
                       component="div"

@@ -34,7 +34,7 @@ export default function History() {
       </Typography>
 
       <Typography>
-      The following table shows a brief history of the standard, beginning with Mandate M376 which resulted in the creation of the standard.
+      This page describes the history of the standard, from 2005 to 2021.
       </Typography>
 
       <TableContainer component={Paper} sx={{ margin: 3 }}>
@@ -59,6 +59,7 @@ export default function History() {
       </Table>
     </TableContainer>
 
+    <Typography variant="subtitle1" color="primary">Note</Typography>
     <Typography paragraph>
       A harmonized standard is a standard which was created to support the law. In this case, to support the Directive (EU) 2016/2102 of the European Union.
     </Typography>

@@ -1,12 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { allItems, homePath, introItems } from './components/MenuItems'
+import { allItems, homePath } from './components/MenuItems'
 import Home from './pages/Home'
 import NoPage from './pages/NoPage'
 import { ThemeProvider } from '@mui/material/styles'
 import { globalTheme } from './components/Theme'
 import Layout from './components/Layout'
 
-// {`${item.img}?w=164&h=164&fit=crop&auto=format`}
 function App() {
   return (
     <ThemeProvider theme={globalTheme}>
