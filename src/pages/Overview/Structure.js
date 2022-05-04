@@ -15,10 +15,17 @@ export default function Structure() {
       </Typography>
 
       <Typography paragraph>
-      The EN 301 549 standard is written to apply to any ICT product or service. It is designed to be very generic. 
+        This pages describes the way in which the standard organizes its content: by functions or characteristics. 
+      </Typography>
+
+      <Typography variant="subtitle1" color="primary">The Idea</Typography>
+      <Typography paragraph>
+      <b>The EN 301 549 standard is written to apply to <i>any</i> ICT product or service</b>. 
+      It is designed to be very generic. 
       The standard covers smartphones and computers but also other ICT devices such as ticket machines selling metro tickets.
       </Typography>
       
+      <Typography variant="subtitle1" color="primary">An Example</Typography>
       <Typography paragraph>
       Let us consider a smartphone. In the standard, there is no one chapter that defines all the accessibility requirements for that smartphone.
       Instead, multiple chapters spread across the standard apply to the smartphone, depending on its characteristics.
@@ -36,9 +43,10 @@ export default function Structure() {
       Therefore, the smartphone would also need to satisfy the requirements of the software chapter of the standard.
       </Typography>
       
+      <Typography variant="subtitle1" color="primary">In Conclusion</Typography>
       <Typography paragraph>
       The standard follows a “functional approach” to Information and Communication Technologies (ICT). 
-      Simply put, the requirements are organized by functions or characteristics as opposed to commercial categories.
+      Simply put, <b>the requirements are organized by functions or characteristics</b> as opposed to commercial categories.
       <br/>
       So instead of having a chapter defining all the requirements for smartphones, 
       there is a two-way voice communication chapter and a software chapter, and so forth.

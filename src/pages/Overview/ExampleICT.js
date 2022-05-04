@@ -40,20 +40,19 @@ export default function ExampleICT() {
       </Typography>
 
       <Typography paragraph>
-      The technical requirements of the standard are spread across chapters 5 to 13.
-      </Typography>
-      
-      <Typography paragraph>
-      Chapter 5 applies to closed functionality technology. Closed functionality means the user cannot attach assistive products.
-      For example, if someone with limited vision cannot attach a screen reader to the ICT,
-      then that ICT is considered to have closed functionality.
-      </Typography>
-      
-      <Typography paragraph>
-      Chapter 10 refers to digital documents that are not web pages such as spreadsheets, presentations, user manuals, or newsletters.
+      This page focuses on chapters 5 to 13 and gives example products and services for which the standard applies. 
       </Typography>
 
-      <TableContainer component={Paper} sx={{ margin: 3 }}>
+      <Typography variant="subtitle1" color="primary">The Idea</Typography>
+      <Typography paragraph>
+      The table below focuses on <b>chapters 5 to 13</b>, which are the <b>technical requirements</b> of the standard. 
+      The table contains one example ICT product or service for every chapter from 5 to 13. 
+      <b className='overviewColor'> In any given row, the chapter of that row applies to the example of that row. </b>
+      However, note that a chapter is not limited to its example, it might apply to more than one example ICT. 
+      </Typography>
+
+      <Typography variant="subtitle1" color="primary">The Examples</Typography>
+      <TableContainer component={Paper} sx={{ margin: 2 }}>
       <Table sx={{ minWidth: 650 }} aria-label="Example ICT for which the chapters apply">
         <TableHead>
           <TableRow>
@@ -76,6 +75,17 @@ export default function ExampleICT() {
         </TableBody>
       </Table>
     </TableContainer>
+
+    <Typography variant="subtitle1" color="primary">In More Details</Typography>
+    <Typography paragraph>
+      Chapter 5 applies to closed functionality technology. Closed functionality means the user cannot attach assistive products.
+      For example, if someone with limited vision cannot attach a screen reader to the ICT,
+      then that ICT is considered to have closed functionality.
+      </Typography>
+      
+      <Typography paragraph>
+      Chapter 10 refers to digital documents that are not web pages such as spreadsheets, presentations, user manuals, or newsletters.
+      </Typography>
       
     </Container>
   )
