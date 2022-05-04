@@ -3,6 +3,8 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
+import { Link } from 'react-router-dom';
+
 
 export default function WCAG() {
   return (
@@ -13,11 +15,11 @@ export default function WCAG() {
         component="h1"
         gutterBottom
       >
-        What is the EN 301 549
+        WCAG free online course
       </Typography>
 
       <Typography paragraph>
-      The Digital Accessibility Foundations Free Online Course provided by the World Wide Web Consortium (W3C),
+      The <a href="https://www.edx.org/course/web-accessibility-introduction">Introduction to Web Accessibility free online course</a> is provided by the World Wide Web Consortium (W3C),
       the organization responsible for the Web Content Accessibility Guidelines (WCAG). 
       It is a self-paced online course available on the edX platform.
       </Typography>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
+import { Link } from 'react-router-dom';
 
 export default function Test() {
   return (
@@ -21,7 +22,7 @@ export default function Test() {
       <Typography variant="subtitle1" color="primary">Recap</Typography>
 
       <Typography paragraph>
-      As explained in the page Determining which requirements apply to a product or service, requirements consist of two parts; 
+      As explained in the page <Link to="/ENF/requirements">Determining which requirements apply to a product or service</Link>, requirements consist of two parts; 
       a pre-condition and the requirement, and are written in the form <i>”Where ICT &lt;pre-condition&gt;, it shall provide &lt;requirement&gt;”</i>.
       <br />
       If the first part is <i>true</i>, the ICT must meet the requirement.
@@ -46,7 +47,7 @@ export default function Test() {
       
       <Typography paragraph>
       To understand how to determine whether a requirement is applicable or not 
-      refer back to the Determining which requirements apply to a product or service page.
+      refer back to the <Link to="/ENF/requirements">Determining which requirements apply to a product or service</Link> page.
       </Typography>
       
       <Typography variant="subtitle1" color="primary">How To Test A Product Or Service</Typography>

@@ -22,7 +22,7 @@ export default function What() {
       </Typography>
       
       <Typography paragraph>
-      At its core, the EN 301 549 <b>describes the behaviors and characteristics</b> a product or service must possess to be accessible. 
+      At its core, the EN 301 549 <b>describes the behaviors and characteristics</b> a product or service <u>must</u> possess to be accessible. 
       It does so through <b>a set of requirements</b> spread across chapters 5 to 13. 
       In the same way one might have dietary requirements, the EN 301 549 defines accessibility requirements for ICT products and services.
       </Typography>

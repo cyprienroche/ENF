@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
+import { Link } from 'react-router-dom';
 
 export default function Funka() {
   return (
@@ -17,7 +18,7 @@ export default function Funka() {
       </Typography>
 
       <Typography paragraph>
-      There are 13 videos produced by Funka available on YouTube for free. 
+      There are <a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org">13 videos produced by Funka available on YouTube</a> for free. 
       <b className='furtherColor'>This video series will help you better understand the EN 301 549 standard at different levels of depth.</b>
       </Typography>
       

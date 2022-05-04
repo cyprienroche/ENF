@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
+import { Link } from 'react-router-dom';
 
 export default function DecisionTree() {
 
@@ -24,7 +25,7 @@ export default function DecisionTree() {
       </Typography>
 
       <Typography paragraph>
-      The decision tree is also available in Spanish and can be viewed in chapter 7 of the book “Accesibilidad TIC en compras publicas”.
+      The decision tree is also available in Spanish and can be viewed in chapter 7 of the book <a href="http://e-spacio.uned.es/fez/view/bibliuned:EditorialUNED-aa-EDU-Arodriguez-0004">“Accesibilidad TIC en compras publicas”</a>.
       </Typography>
 
       <Box textAlign='center'>

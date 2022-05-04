@@ -9,10 +9,15 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { overviewItems } from '../../components/MenuItems';
+
 
 function createData(count, method, explanation) {
   return { count, method, explanation };
 }
+
 
 const rows = [
   createData(1, 'The Standard', 'This is by far the longest and most tedious approach. It consists going through each chapter and reading each requirement'),
@@ -22,6 +27,8 @@ const rows = [
 ];
 
 export default function Requirements() {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <Typography
@@ -118,7 +125,7 @@ export default function Requirements() {
       <br /> 
       I record that on a side note and continue answering the questions of the decision tree.
       <br />
-      To find out more about the decision tree visit the decision tree page.
+      To find out more about the decision tree visit the <Link to="/ENF/decision-tree">decision tree</Link> page.
       </Typography>
 
       <Typography variant="subtitle1" color="primary">The Annex A Approach</Typography>
@@ -126,7 +133,7 @@ export default function Requirements() {
       Annex A is a good approach when the product or service must conform to Directive (EU) 2016/2102 of the European Union. 
       Annex A defines the essential requirements the product or service must satisfy to comply with the directive. 
       <br />
-      To know which products and services must comply with the directive, use the Products and services that must conform to the standard page.
+      To know which products and services must comply with the directive, use the <Link to='/ENF/conform'>Products and services that must conform to the standard</Link> page.
       </Typography>
       
       <Typography paragraph>
