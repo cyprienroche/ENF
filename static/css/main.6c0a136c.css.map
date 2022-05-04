@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6c0a136c.css","mappings":"AAAA,YACI,aACJ,CACA,eACI,aACJ,CACA,iBACI,aACJ,CACA,cACI,aACJ","sources":["index.css"],"sourcesContent":[".introColor {\n    color:#ffb300;\n}\n.overviewColor {\n    color: #00897b;\n}\n.inpracticeColor {\n    color: #d81b60;\n}\n.furtherColor {\n    color: #8e24aa;\n}"],"names":[],"sourceRoot":""}
