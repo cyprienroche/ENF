@@ -38,10 +38,9 @@ export default function Funka() {
 
       <Box textAlign='center'>
           <Button 
-            onClick={() => {alert('Funka videos not linked yet')}}
             color="primary" 
             variant="contained"
-            href="#decision-tree"
+            href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org"
             sx = {{margin: 3}}
           >
             Watch the Funka videos

@@ -41,10 +41,9 @@ export default function WCAG() {
 
       <Box textAlign='center'>
           <Button 
-            onClick={() => {alert('WCAG Online Course not linked yet')}}
             color="primary" 
             variant="contained"
-            href="#decision-tree"
+            href="https://www.edx.org/course/web-accessibility-introduction"
             sx = {{margin: 3}}
           >
             Go to the free WCAG online course
