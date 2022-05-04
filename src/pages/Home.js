@@ -15,21 +15,23 @@ export default function Home() {
         </Typography>
 
         <Typography paragraph>
-          The <b className='globalColor'>EN 301 549 Facilitator (ENF)</b> is a tool to help people <b>understand the EN 301 549 standard</b>.
+          The <b className='globalColor'>EN 301 549 Facilitator (ENF)</b> is a tool to help people <b>understand the EN 301 549 standard</b>, a European standard on accessibility.
         </Typography>
 
         <Typography paragraph>
           Start using the ENF by clicking on the elements on the left hand side of the screen. 
         </Typography>
 
+        <Typography variant="subtitle1" color="primary">Scope</Typography>
         <Typography paragraph>
           This is a <i className='globalColor'>high-fidelity <b><u>prototype</u></b></i> built as part of a master thesis at the Universidad Politécnica de Madrid.
           <br />
           It is <b>not meant to be used in production</b> and is <b>not a real working product</b>.
         </Typography>
 
+        <Typography variant="subtitle1" color="primary">Questions</Typography>
         <Typography paragraph>
-          If you have any questions, please email cyprienroche@duck.com.
+          Please email cyprienroche@duck.com if you have any questions.
         </Typography>
     </Container>
   )
