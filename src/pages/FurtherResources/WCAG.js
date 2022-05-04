@@ -1,6 +1,8 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
+import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
 
 export default function WCAG() {
   return (
@@ -32,10 +34,22 @@ export default function WCAG() {
       </Typography>
       
       <Typography paragraph>
-      This course is a helps you better understand WCAG, which the EN 301 549 standard references in chapters 9, 10, and 11.
+      <b className='furtherColor'>This course helps you better understand WCAG, which the EN 301 549 standard references in chapters 9, 10, and 11.</b>
       <br />
       To better understand the content of the EN 301 549 standard, it is beneficial to take this course and build a strong understanding of WCAG.
       </Typography>
+
+      <Box textAlign='center'>
+          <Button 
+            onClick={() => {alert('WCAG Online Course not linked yet')}}
+            color="primary" 
+            variant="contained"
+            href="#decision-tree"
+            sx = {{margin: 3}}
+          >
+            Go to the free WCAG online course
+          </Button>
+      </Box>
       
     </Container>
   )

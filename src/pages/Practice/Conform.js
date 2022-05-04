@@ -15,16 +15,17 @@ export default function Conform() {
       </Typography>
 
       <Typography paragraph>
-      For the public sector
+        This page describes the products and services that must conform to the standard.
       </Typography>
+
+      <Typography variant="subtitle1" color="primary">The Public Sector</Typography>
       
       <Typography paragraph>
       Because to the Directive (EU) 2016/2102 of the European Union, 
-      all websites and mobile applications of public sector bodies must conform to the EN 301 549 standard as of today.
+      <b> all websites and mobile applications of public sector bodies must conform to the EN 301 549 standard</b>. With the exception of the following:
       </Typography>
       
-      <Typography paragraph>
-      With the exception of the following:
+      <Typography>
       <ul>
         <li>Websites and mobile applications of public broadcasters</li>
         <li>Websites and mobile applications of NGOs that do not provide services that are essential to the public</li>
@@ -35,12 +36,15 @@ export default function Conform() {
       </ul>
       </Typography>
       
+      <Typography variant="subtitle1" color="primary">The Private Sector</Typography>
+
       <Typography paragraph>
-      For the private sector
+      Because of the Directive (EU) 2019/882 of the European Union,
+      <b> the following products and services will have to conform to the EN 301 549 standard <i>by 2025</i></b>, 
+      regardless of whether they are in the public or private sector:
       </Typography>
       
-      <Typography paragraph>
-      Because of the Directive (EU) 2019/882 of the European Union, the following products and services will have to conform to the EN 301 549 standard by 2025:
+      <Typography>
       <ul>
         <li>Computers and operating systems</li>
         <li>ATMs, ticketing and check-in machines</li>

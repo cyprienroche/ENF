@@ -1,8 +1,8 @@
 import React from 'react'
 import Typography from '@mui/material/Typography'
-import Button from '@mui/material/Button'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
 
 export default function DecisionTree() {
 
@@ -17,11 +17,16 @@ export default function DecisionTree() {
         The decision tree
       </Typography>
 
-      <Typography>
-      The decision tree tool is to help people identify which requirements of the EN 301 549 standard apply to an ICT product or service. 
+      <Typography paragraph>
+      The decision tree is a tool that helps people <b className='furtherColor'>identify the requirements of the EN 301 549 standard which apply to an ICT product or service.</b>
       The decision tree contains 37 questions about the product or service. 
       After answering all questions, a list of requirements applicable to the product or service is obtained.
       </Typography>
+
+      <Typography paragraph>
+      The decision tree is also available in Spanish and can be viewed in chapter 7 of the book “Accesibilidad TIC en compras publicas”.
+      </Typography>
+
       <Box textAlign='center'>
           <Button 
             onClick={() => {alert('Decision tree not implemented yet')}}
@@ -33,11 +38,6 @@ export default function DecisionTree() {
             Use the decision tree
           </Button>
       </Box>
-      
-
-      <Typography>
-      The decision tree is also available in Spanish and can be viewed in chapter 7 of the book “Accesibilidad TIC en compras publicas”.
-      </Typography>
 
 
     </Container>

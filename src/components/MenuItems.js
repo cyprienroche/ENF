@@ -86,7 +86,7 @@ import { furtherTheme, introTheme, overviewTheme, inpracticeTheme } from "./Them
             subsections: introItems,
         },
         {
-            text: 'Overivew',
+            text: 'Overview',
             theme: overviewTheme,
             subsections: overviewItems,
         },
