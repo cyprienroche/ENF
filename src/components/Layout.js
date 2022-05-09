@@ -18,7 +18,7 @@ const selectedPageStyle = (section) => {
     color: 'white',
     '&:hover': {
       bgcolor: section.theme.palette.primary.light,
-      color: 'black',
+      color: 'white',
     },
     // 'text-decoration': 'underline',
     }

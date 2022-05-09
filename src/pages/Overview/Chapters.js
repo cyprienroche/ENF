@@ -29,7 +29,10 @@ export default function Chapters() {
       <Box textAlign='center' sx={{margin: 3}}>
         <img 
           src={process.env.PUBLIC_URL + "/images/structure.jpg"}  
-          alt="Structure of the EN 301 549 standard. Chapter 4 is about user needs and Chapters 5 to 13 are about the requirements."
+          alt="Structure of the EN 301 549 standard. 
+          Chapter 4 is about user needs. 
+          Chapters 5 to 13 are about the requirements. 
+          Annex C is about testing whether a product or service meets a requirement."
           width="65%"
         />
       </Box>
