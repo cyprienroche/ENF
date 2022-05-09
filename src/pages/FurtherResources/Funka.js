@@ -17,8 +17,8 @@ export default function Funka() {
       </Typography>
 
       <Typography paragraph>
-      There are <a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org">13 videos produced by Funka available on YouTube</a> for free. 
-      <b className='furtherColor'>This video series will help you better understand the EN 301 549 standard at different levels of depth.</b>
+      There are <a href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org">13 videos produced by Funka and sponsored by Microsoft available on YouTube</a> for free. 
+      <b className='furtherColor'><em>This video series will help you better understand the EN 301 549 standard at different levels of depth.</em></b>
       </Typography>
       
       <Typography paragraph>
@@ -43,7 +43,7 @@ export default function Funka() {
             href="https://www.youtube.com/channel/UCdW_0pPNiiPLaLM90_20org"
             sx = {{margin: 3}}
           >
-            Watch the Funka videos
+            Watch the Funka/Microsoft videos
           </Button>
       </Box>
       

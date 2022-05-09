@@ -24,7 +24,7 @@ export default function DecisionTree() {
       </Typography>
 
       <Typography paragraph>
-      The decision tree is a tool that helps people <b className='furtherColor'>identify the requirements of the EN 301 549 standard which apply to an ICT product or service.</b>
+      The decision tree is a tool that helps people <b className='furtherColor'><em>identify the requirements of the EN 301 549 standard which apply to an ICT product or service.</em></b>
       The decision tree contains 37 questions about the product or service. 
       After answering all questions, a list of requirements applicable to the product or service is obtained.
       </Typography>
