@@ -5,6 +5,7 @@ import NoPage from './pages/NoPage'
 import { ThemeProvider } from '@mui/material/styles'
 import { globalTheme } from './components/Theme'
 import Layout from './components/Layout'
+import DecisionTreeQuestions from './pages/FurtherResources/DecisionTreeQuestions'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route path={subsection.path} element={<ThemeProvider theme={section.theme}>{subsection.file}</ThemeProvider>} />
             ))
           ))}
+          <Route path={`${homePath}decision-tree/questions`} element={<DecisionTreeQuestions />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Layout>

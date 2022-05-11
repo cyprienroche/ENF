@@ -3,14 +3,11 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
-
-import List from '@mui/material/List'
-import ListItem from '@mui/material/ListItem'
-import ListItemText from '@mui/material/ListItemText'
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export default function DecisionTree() {
 
-  const [showQuestions, setShowQuestioins] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <Container>
@@ -35,37 +32,15 @@ export default function DecisionTree() {
 
       <Box textAlign='center'>
           <Button 
-            onClick={() => setShowQuestioins(prev => !prev)}
+            onClick={() => navigate('/ENF/decision-tree/questions')}
             color="primary" 
             variant="contained"
-            href="#decision-tree"
             sx = {{margin: 3}}
           >
             Use the decision tree
           </Button>
       </Box>
 
-      {showQuestions && 
-      <Box>
-        <Typography paragraph>
-        Question 18: Is the ICT system hardware or contains hardware components?
-        <br />
-        If yes, then requirement 8.1.3 applies.
-        </Typography>
-
-        <Typography paragraph>
-        Question 29: Is the ICT system a non-web document or contains non-web documents?
-        <br />
-        If yes, then requirement 10.1.4.1 applies.
-        </Typography>
-
-        <Typography paragraph>
-        Question 30: Is the ICT system is a software or contains software?
-        <br />
-        If yes, then requirement 11.5.2.4 applies.
-        </Typography>
-      </Box>
-      }
 
     </Container>
   )
