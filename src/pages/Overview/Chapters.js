@@ -39,11 +39,11 @@ export default function Chapters() {
 
       <Typography variant="subtitle1" color="primary">In More Details</Typography>
       <Typography paragraph>
-      <b className='overviewColor'>Chapters 1 to 3</b> define the background, the scope, references, and definitions relevant to the standard.
+      <b>Chapters 1 to 3</b> define the background, the scope, references, and definitions relevant to the standard.
       </Typography>
       
       <Typography paragraph>
-      <b className='overviewColor'>Chapter 4</b> describes <b>people with disabilities as users</b> of ICT products and services. 
+      <b>Chapter 4</b> describes <b>people with disabilities as users</b> of ICT products and services. 
       It describes their needs and what must be done to make a product or service accessible.
       <br /> 
       <i>For example</i>, if a user cannot see, the ICT must provide a sound. 
@@ -52,35 +52,35 @@ export default function Chapters() {
       </Typography>
       
       <Typography paragraph>
-      <b className='overviewColor'>Chapters 5 to 13</b> contain <b>detailed requirements</b> grouped by ICT functionality or characteristics.
+      <b>Chapters 5 to 13</b> contain <b>detailed requirements</b> grouped by ICT functionality or characteristics.
       </Typography>
       
       <Typography paragraph>
-       <b className='overviewColor'>Chapter 14</b> gives a general overview of <b>how to assess the conformance</b> of an ICT product or service to the standard.
+       <b>Chapter 14</b> gives a general overview of <b>how to assess the conformance</b> of an ICT product or service to the standard.
       </Typography>
       
       <Typography paragraph>
-       <b className='overviewColor'>Annex A</b> defines the essential requirements a product or service must satisfy to comply with a <b>European Directive (Directive 2016/2102)</b>.
+       <b>Annex A</b> defines the essential requirements a product or service must satisfy to comply with a <b>European Directive (Directive 2016/2102)</b>.
       </Typography>
 
       <Typography paragraph>
-       <b className='overviewColor'>Annex B</b> shows the relationship between the detailed requirements (chapters 5 to 13) and the functional performance statements (chapter 4).
+       <b>Annex B</b> shows the relationship between the detailed requirements (chapters 5 to 13) and the functional performance statements (chapter 4).
       </Typography>
 
       <Typography paragraph>
-       <b className='overviewColor'>Annex C</b> provides a way to <b>test whether of a product or service meets the requirements</b> of chapters 5 to 13.
+       <b>Annex C</b> provides a way to <b>test whether of a product or service meets the requirements</b> of chapters 5 to 13.
       </Typography>
 
       <Typography paragraph>
-       <b className='overviewColor'>Annex D</b> contains further resources for cognitive accessibility.
+       <b>Annex D</b> contains further resources for cognitive accessibility.
       </Typography>
 
       <Typography paragraph>
-       <b className='overviewColor'>Annex E</b> provides guidance to readers. It is designed to help readers make the best use of the standard as a document.
+       <b>Annex E</b> provides guidance to readers. It is designed to help readers make the best use of the standard as a document.
       </Typography>
 
       <Typography paragraph>
-       <b className='overviewColor'>Annex F</b> contains a change history table
+       <b>Annex F</b> contains a change history table
       </Typography>
       
     </Container>

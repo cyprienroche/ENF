@@ -15,7 +15,7 @@ export default function Home() {
         </Typography>
 
         <Typography paragraph>
-          The <b className='globalColor'>EN 301 549 Facilitator (ENF)</b> is a tool to help people <b>understand the EN 301 549 standard</b>, a European standard on accessibility.
+          The <b>EN 301 549 Facilitator (ENF)</b> is a tool to help people <b>understand the EN 301 549 standard</b>, a European standard on accessibility.
         </Typography>
 
         <Typography paragraph>
@@ -24,7 +24,7 @@ export default function Home() {
 
         <Typography variant="subtitle1" color="primary">Scope</Typography>
         <Typography paragraph>
-          This is a <i className='globalColor'>high-fidelity <b><em>prototype</em></b></i> built as part of a master thesis at the Universidad Politécnica de Madrid.
+          This is a <b>prototype</b> built as part of a master thesis at the Universidad Politécnica de Madrid.
           <br />
           It is <b>not meant to be used in production</b> and is <b>not a real working product</b>.
         </Typography>

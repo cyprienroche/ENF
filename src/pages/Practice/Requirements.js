@@ -79,7 +79,7 @@ export default function Requirements() {
       As an example, imagine I am building an office thermostat controller for a European public hospital. 
       Note that <b>it is not possible to attach assistive products to the thermostat controller</b>. 
       <i> For example</i>, a blind person would not be able to install a screen reader on the thermostat controller. 
-      Therefore, <b className='inpracticeColor'><em>it has closed functionality</em></b>.
+      Therefore, <b><em>it has closed functionality</em></b>.
       </Typography>
       
       <Typography variant="subtitle1" color="primary">The Standard Approach</Typography>

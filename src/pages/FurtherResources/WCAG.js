@@ -34,7 +34,7 @@ export default function WCAG() {
       </Typography>
       
       <Typography paragraph>
-      <b className='furtherColor'><em>This course helps you better understand WCAG, which the EN 301 549 standard references in chapters 9, 10, and 11.</em></b>
+      <b><em>This course helps you better understand WCAG, which the EN 301 549 standard references in chapters 9, 10, and 11.</em></b>
       <br />
       To better understand the content of the EN 301 549 standard, it is beneficial to take this course and build a strong understanding of WCAG.
       </Typography>

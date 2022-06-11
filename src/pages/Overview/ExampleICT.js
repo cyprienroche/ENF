@@ -47,7 +47,7 @@ export default function ExampleICT() {
       <Typography paragraph>
       The table below focuses on <b>chapters 5 to 13</b>, which are the <b>technical requirements</b> of the standard. 
       The table contains one example ICT product or service for every chapter from 5 to 13. 
-      <b className='overviewColor'> <em>In any given row, the chapter of that row applies to the example of that row.</em> </b>
+      <b> <em>In any given row, the chapter of that row applies to the example of that row.</em> </b>
       However, note that a chapter is not limited to its example, it might apply to more than one example ICT. 
       </Typography>
 

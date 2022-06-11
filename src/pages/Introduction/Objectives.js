@@ -15,7 +15,7 @@ export default function Objectives() {
       </Typography>
 
       <Typography paragraph>
-      This page presents the <b className="introColor"><em>3 objectives</em></b> of the EN 301 549 standard:
+      This page presents the 3 objectives of the EN 301 549 standard:
       <ol>
         <li><b>Define a set of requirements</b> that make an ICT product or service accessible in Europe</li>
         <li>Enable organizations to <b>test the conformance</b>, and so the accessibility, of ICT products and services</li>
